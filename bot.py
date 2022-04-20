@@ -25,11 +25,11 @@ async def cancel(event):
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**𝐄𝐱𝐭𝐫𝐚𝐓𝐚𝐆𝐆𝐞𝐑**, 𝙶𝚛𝚞𝚙 𝚟𝚎𝚢𝚊 𝚔𝚊𝚗𝚊𝚕𝚍𝚊𝚔𝚒 𝚗𝚎𝚛𝚎𝚍𝚎𝚢𝚜𝚎 𝚝ü𝚖 ü𝚢𝚎𝚕𝚎𝚛𝚍𝚎𝚗 𝚋𝚊𝚑𝚜𝚎𝚍𝚎𝚋𝚒𝚕𝚒𝚛𝚒𝚖 ★\𝙳𝚊𝚑𝚊 𝚏𝚊𝚣𝚕𝚊 𝚋𝚒𝚕𝚐𝚒 𝚒ç𝚒𝚗 **/help**'𝚒 𝚝ı𝚔𝚕𝚊𝚢ı𝚗.",
+  await event.reply("**BCtagsbot**, 𝙶𝚛𝚞𝚙 𝚟𝚎𝚢𝚊 𝚔𝚊𝚗𝚊𝚕𝚍𝚊𝚔𝚒 𝚗𝚎𝚛𝚎𝚍𝚎𝚢𝚜𝚎 𝚝ü𝚖 ü𝚢𝚎𝚕𝚎𝚛𝚍𝚎𝚗 𝚋𝚊𝚑𝚜𝚎𝚍𝚎𝚋𝚒𝚕𝚒𝚛𝚒𝚖 ★\𝙳𝚊𝚑𝚊 𝚏𝚊𝚣𝚕𝚊 𝚋𝚒𝚕𝚐𝚒 𝚒ç𝚒𝚗 **/help**'𝚒 𝚝ı𝚔𝚕𝚊𝚢ı𝚗.",
                     buttons=(
-                      [Button.url('🌟 𝙱𝚎𝚗𝚒 𝙱𝚒𝚛 𝙶𝚛𝚞𝚋𝚊 𝙴𝚔𝚕𝚎', 'https://t.me/ExtraTaGGerbot?startgroup=a'),
-                      Button.url('📣 𝙺𝚊𝚗𝚊𝚕', 'https://t.me/Extremekanallar'),
-                      Button.url('🚀 𝚂𝚊𝚑𝚒𝚋𝚒𝚖', 'https://t.me/OrmanCocuklariylaMucadele')]
+                      [Button.url('🌟 𝙱𝚎𝚗𝚒 𝙱𝚒𝚛 𝙶𝚛𝚞𝚋𝚊 𝙴𝚔𝚕𝚎', 'https://t.me/BCtags?startgroup=a'),
+                      Button.url('📣 𝙺𝚊𝚗𝚊𝚕', 'https://t.me/bakuClubb'),
+                      Button.url('🚀 𝚂𝚊𝚑𝚒𝚋𝚒𝚖', 'https://t.me/Ordendi')]
                     ),
                     link_preview=False
                    )
@@ -39,8 +39,8 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('🌟 𝙱𝚎𝚗𝚒 𝙱𝚒𝚛 𝙶𝚛𝚞𝚋𝚊 𝙴𝚔𝚕𝚎', 'https://t.me/ExtraTaGGerbot?startgroup=a'),
-                      Button.url('📣 𝙺𝚊𝚗𝚊𝚕', 'https://t.me/Extremekanallar'),
-                      Button.url('🚀 𝚂𝚊𝚑𝚒𝚋𝚒𝚖', 'https://t.me/OrmanCocuklariylaMucadele')]
+                      Button.url('📣 𝙺𝚊𝚗𝚊𝚕', 'https://t.me/bakuClubb'),
+                      Button.url('🚀 𝚂𝚊𝚑𝚒𝚋𝚒𝚖', 'https://t.me/Ordendi')]
                     ),
                     link_preview=False
                    )
@@ -106,5 +106,5 @@ async def mentionall(event):
         usrtxt = ""
 
 
-print(">> 𝙱𝚘𝚝 ç𝚊𝚕ı𝚢𝚘𝚛 𝚖𝚎𝚛𝚊𝚔 𝚎𝚝𝚖𝚎 🚀 @OrmanCocuklariylaMucadele 𝚋𝚒𝚕𝚐𝚒 𝚊𝚕𝚊𝚋𝚒𝚕𝚒𝚛𝚜𝚒𝚗 <<")
+print(">> 𝙱𝚘𝚝 ç𝚊𝚕ı𝚢𝚘𝚛 𝚖𝚎𝚛𝚊𝚔 𝚎𝚝𝚖𝚎 🚀 @Ordendi 𝚋𝚒𝚕𝚐𝚒 𝚊𝚕𝚊𝚋𝚒𝚕𝚒𝚛𝚜𝚒𝚗 <<")
 client.run_until_disconnected()
